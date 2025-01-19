@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" href="./assets/youtube-icon.svg">
+    <link rel="stylesheet" href="./styles.css">
+    <title>YouTube</title>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+            <div class="logo">
+                <span class="material-symbols-outlined">menu</span>
+                <img src="https://www.vectorlogo.zone/logos/youtube/youtube-ar21.svg" alt="">
+                <span id="country-code">ZA</span>
+            </div>
+
+            <div class="searchbar">
+            <form class="search">
+                <input type="text" placeholder="Search">
+                <button><span class="material-symbols-outlined">search</span></button>
+            </form>
+
+            <div class="mic-icon">
+            <span class="material-symbols-outlined">mic</span>
+            </div>
+
+            </div>
+
+            <div class="navigation-icons">
+                <span class="material-symbols-outlined">video_call</span>
+                <span class="material-symbols-outlined">apps</span>
+                <span class="material-symbols-outlined">notifications_none</span>
+                <span class="material-symbols-outlined">account_circle</span>
+            </div>
+        </div>
+
+        <div class="mainbody">
+        <div class="menu-sidebar">
+            <div class="sidebar-section">
+                <span class="category active">
+                    <span class="material-symbols-outlined" style="fill: black;">home</span>
+                    Home
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">bolt</span>
+                    Shorts
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">subscriptions</span>
+                    Subscriptions
+                </span>
+            </div>
+
+            <div class="sidebar-section">
+                <p>You</p>
+                <span class="category">
+                    <span class="material-symbols-outlined">restore</span>
+                    History
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">playlist_play</span>
+                    Playlists
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">schedule</span>
+                    Watch later
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">thumb_up</span>
+                    Liked videos
+                </span>
+            </div>
+
+            <div class="sidebar-section">
+                <p>Subscriptions</p>
+                <span class="category">
+                <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" height="24" width="24" src="https://yt3.ggpht.com/jkdUOEdZoEbDv1Sg51TeraRl4FHWcpLbHkA3fRGI92sP_k9XKL_AcUZJ0q9LT1nMW4UhqGmSvD4=s88-c-k-c0x00ffffff-no-rj">
+                    Justmarothi
+                </span>
+                <span class="category">
+                <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" height="24" width="24" src="https://yt3.ggpht.com/Nq7Klzg66rBP4rlwMLc-NuS-6j65nstrfEo6JRK3hjFyPuzH27jD3dy331n422EQeVxzykVHJw=s88-c-k-c0x00ffffff-no-rj">
+                    Move with Nicole
+                </span>
+                <span class="category">
+                <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" height="24" width="24" src="https://yt3.ggpht.com/_kQeEdhR6Kssk9PPoWczgA0ix2VeBK9zLKHSvCNrdyOfNUkQl3YhDMV8VN5GXSHBf1CcE4CG=s88-c-k-c0x00ffffff-no-rj">
+                    Afrifitness
+                </span>
+                <span class="category">
+                <img id="img" draggable="false" class="style-scope yt-img-shadow" alt="" height="24" width="24" src="https://yt3.ggpht.com/N3mJAhSzI9aouisyW7PQuVBPC2D2xtQcUyGiiDhy8OZubShxTle1EkdDNnnRzQz4sd4Bmv58=s88-c-k-c0x00ffffff-no-rj">
+                    Lasizwe Dambuza
+                </span>
+                <span class="category">
+                <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                    Show more
+                </span>
+            </div>
+
+            <div class="sidebar-section">
+                <p>Explore</p>
+                <span class="category">
+                    <span class="material-symbols-outlined">whatshot</span>
+                    Trending
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">audiotrack</span>
+                    Music
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">videogame_asset</span>
+                    Gaming
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">newspaper</span>
+                    News
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">emoji_events</span>
+                    Sports
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">podcasts</span>
+                    Podcasts
+                </span>
+            </div>
+
+            <div class="sidebar-section">
+                <p>More from YouTube</p>
+                <span class="category">
+                <img height="24px" width="24px" src="./assets/youtube-premium.svg" alt="Youtube Premium icon">
+                YouTube Premium
+                </span>
+                <span class="category">
+                    <img height="24px" width="24px" src="./assets/youtube-music.svg" alt="Youtube Music icon">
+                YouTube Music
+                </span>
+                <span class="category">
+                    <img height="24px" width="24px" src="./assets/youtube-kids.svg" alt="Youtube Kids icon">
+                YouTube Kids
+                </span>
+            </div>
+            <div class="sidebar-section">
+                <span class="category">
+                    <span class="material-symbols-outlined">settings</span>
+                    Settings
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">flag</span>
+                    Report history
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">help</span>
+                    Help
+                </span>
+                <span class="category">
+                    <span class="material-symbols-outlined">feedback</span>
+                    Send feedback
+                </span>
+            </div>
+            <div class="categories-footer">
+                <div class="footer-section1">
+                    <span>About</span>
+                    <span>Press</span>
+                    <span>Copyright</span>
+                    <span>Contact us</span>
+                    <span>Creators</span>
+                    <span>Advertise</span>
+                    <span>Developers</span>
+                    </div>
+               
+                <div class="footer-section2">
+                    <span>Terms</span>
+                    <span>Privacy</span>
+                    <span>Policy & Safety</span>
+                    <span>How YouTube works</span><br>
+                    <span>Test new features</span>
+                    </div>
+                
+                    <div class="copyright">
+                        <span>© Amahle YouTube Clone</span>
+                    </div>
+            </div>
+        </div>
+
+        <div class="tag-bar">
+        </div>
+        <div class="videos-section">
+            <div class="video-grid">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/sbHLb1BZbeg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-kciIQpOdgAaHa7YrNDe6v3pIAw" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/DZKirdXJT_2a9J1DGohNOzAUbv7PCFyHTCZujQyT_mbmOA4gWH5ueUVgQc7lYVmE5RcbjMt5HQ=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>CHRISTIAN GIRL CHAT| let’s talk modesty + secular music + growing in Christ + sin & more!</p>
+                            <div class="profile-name">
+                                <span><a href="#">Maya Graves</a></span>
+                                <div class="views-date">
+                                <span>254K views</span>
+                                <span>•</span>
+                                <span>2 months ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/Zp3M9MhPwcQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYpHcJnm4H-1WQLGgp2X5bmzIdYw" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/X8KJSAfMTp-ifm8wZp9yLPQm5hAAdLeh-cwBhnan2S7yvDUI5Sevp2dGtcSVc2uwjssvwK_7mQw=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>What I gave up to be closer to God</p>
+                            <div class="profile-name">
+                                <span><a href="#">Amani Talks Podcast</a></span>
+                                <div class="views-date">
+                                <span>80K views</span>
+                                <span>•</span>
+                                <span>1 months ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/E7GEdyJTgQY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCzbbV4Ar49QuiUcRHJHX50KjEXaA" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/WEjUT5m8SNnbzob8v65cCgKtJq4Vu-0wNYsAg796ao3lCJDvjsxfTyj8PkqjxNLds_DXwM_f2w=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>get rid of distractions and get Godly discipline.</p>
+                            <div class="profile-name">
+                                <span><a href="#">FIND ME IN THE SECRET PLACE</a></span>
+                                <div class="views-date">
+                                <span>78K views</span>
+                                <span>•</span>
+                                <span>2 months ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/acgSU0AcbCU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBlP9vCzl8gvyFEiS-efxXaQgEU9A" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/1d5xF6Vq0TkYCJmz2pFNRLRfn_gRX_SX6yMIAzNoYk_o0dejN3tC-TGURQjIm_nHdLhb-tqlwA=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>MY SIGNATURE SOFT GLAM MAKEUP! | step-by-step & detailed</p>
+                            <div class="profile-name">
+                                <span><a href="#">MikariaJanae TV</a></span>
+                                <div class="views-date">
+                                <span>58K views</span>
+                                <span>•</span>
+                                <span>2 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/TDefoQUQk38/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAfoEH21qv1VrQs4OqRcG8Tr0c0mg" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/0mVFkKPaXZg6gh-PUMaOzoW8v3d85hfhwb4ZFiou8w1BUvL7n2NIu55cwE8IPM_tRW6wLFNMNFE=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>If it doesn’t bring you peace or purpose, don’t give it your time or energy.</p>
+                            <div class="profile-name">
+                                <span><a href="#">Mari</a></span>
+                                <div class="views-date">
+                                <span>9.6K views</span>
+                                <span>•</span>
+                                <span>1 month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/TbYkJXqdUP0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCS602SYNL-i1zqPSciEKu4zZBC1w" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/Nq7Klzg66rBP4rlwMLc-NuS-6j65nstrfEo6JRK3hjFyPuzH27jD3dy331n422EQeVxzykVHJw=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>30 MIN FULL BODY WORKOUT || At-Home Beginner Pilates (No Equipment)</p>
+                            <div class="profile-name">
+                                <span><a href="#">Move With Nicole</a></span>
+                                <div class="views-date">
+                                <span>3.2M views</span>
+                                <span>•</span>
+                                <span>1 year ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/Qet3rStQ2sc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8-rgXz7fZvIdTgEi8PKeVwduYQA" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/_s1die7UwnoZvUq_oy-XgBU2cEgE9ipmwLuBsfAvELHa-ZO5nsPyEU4gKcbx6mN7MTdV2a0ujMo=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>BABY NUMBER 2 ON THE WAY</p>
+                            <div class="profile-name">
+                                <span><a href="#">Naka and Dom</a></span>
+                                <div class="views-date">
+                                <span>581K views</span>
+                                <span>•</span>
+                                <span>2 months ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/EsRKVHAZGwA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVFY9Us27JYI5npANGLaWbjYUoBQ" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/lHXXgjApqis95iHh-E-1sD5gqigK1UtPD2rH7MmCgD9WbAPS2H5Hk0giz0DYxSH_KnXkmWVN=s88-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>Halle - Because I Love You (Official Video)</p>
+                            <div class="profile-name">
+                                <span><a href="#">Halle</a></span>
+                                <div class="views-date">
+                                <span>1M views</span>
+                                <span>•</span>
+                                <span>3 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/k4taTzkhzHc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIbtmz6k85AjGnt-fnxef5eN11Vw" alt="">
+                    </div>
+                    <div class="details">
+                        <div class="profile">
+                            <img src="https://yt3.ggpht.com/ytc/AIdro_mk2Ex-8sW03SBlBX7D1EC5skH0kv9rS3rU9IXq2I-q2Zg=s68-c-k-c0x00ffffff-no-rj" alt="">
+                        </div>
+                        <div class="video-details">
+                            <p>CSS Positioning Tutorial #11 - Z - Index & Stacking Order</p>
+                            <div class="profile-name">
+                                <span><a href="#">Net Ninja</a></span>
+                                <div class="views-date">
+                                <span>91K views</span>
+                                <span>•</span>
+                                <span>8 years ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
